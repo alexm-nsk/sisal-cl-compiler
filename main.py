@@ -22,6 +22,8 @@ def main(args):
 
     file_name        = file_.split("/")[-1]
     output_file_name = os.getcwd() + "/output/" + file_name + ".ll"
+    if not os.path.isdir('output'):
+        os.mkdir("output")
     cprint (text_colors.OKBLUE, "writing to {}".format (output_file_name) )
     open(output_file_name, "w").write(str(module))
     

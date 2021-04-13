@@ -1,0 +1,410 @@
+{
+  "functions": [
+    {
+      "name": "Lambda",
+      "location": "1:1-3:13",
+      "outPorts": [
+        {
+          "nodeId": "node1",
+          "type": {
+            "location": "1:16-1:23",
+            "name": "integer"
+          },
+          "index": 0
+        },
+        {
+          "nodeId": "node1",
+          "type": {
+            "location": "1:16-1:23",
+            "name": "integer"
+          },
+          "index": 1
+        }
+      ],
+      "inPorts": [
+        {
+          "nodeId": "node1",
+          "type": {
+            "location": "1:16-1:23",
+            "name": "integer"
+          },
+          "index": 0
+        },
+        {
+          "nodeId": "node1",
+          "type": {
+            "location": "1:27-1:34",
+            "name": "integer"
+          },
+          "index": 1
+        },
+        {
+          "nodeId": "node1",
+          "type": {
+            "location": "1:38-1:45",
+            "name": "integer"
+          },
+          "index": 2
+        }
+      ],
+      "id": "node1",
+      "params": [
+        [
+          "a",
+          {
+            "nodeId": "node1",
+            "type": {
+              "location": "1:16-1:23",
+              "name": "integer"
+            },
+            "index": 0
+          }
+        ],
+        [
+          "b",
+          {
+            "nodeId": "node1",
+            "type": {
+              "location": "1:27-1:34",
+              "name": "integer"
+            },
+            "index": 1
+          }
+        ],
+        [
+          "c",
+          {
+            "nodeId": "node1",
+            "type": {
+              "location": "1:38-1:45",
+              "name": "integer"
+            },
+            "index": 2
+          }
+        ]
+      ],
+      "edges": [
+        [
+          {
+            "nodeId": "node1",
+            "type": {
+              "location": "1:16-1:23",
+              "name": "integer"
+            },
+            "index": 0
+          },
+          {
+            "nodeId": "node3",
+            "type": {
+              "location": "1:16-1:23",
+              "name": "integer"
+            },
+            "index": 0
+          }
+        ],
+        [
+          {
+            "nodeId": "node1",
+            "type": {
+              "location": "1:27-1:34",
+              "name": "integer"
+            },
+            "index": 1
+          },
+          {
+            "nodeId": "node3",
+            "type": {
+              "location": "1:27-1:34",
+              "name": "integer"
+            },
+            "index": 1
+          }
+        ],
+        [
+          {
+            "nodeId": "node3",
+            "type": {
+              "location": "1:16-1:23",
+              "name": "integer"
+            },
+            "index": 0
+          },
+          {
+            "nodeId": "node2",
+            "type": {
+              "location": "1:16-1:23",
+              "name": "integer"
+            },
+            "index": 0
+          }
+        ],
+        [
+          {
+            "nodeId": "node1",
+            "type": {
+              "location": "1:38-1:45",
+              "name": "integer"
+            },
+            "index": 2
+          },
+          {
+            "nodeId": "node2",
+            "type": {
+              "location": "1:38-1:45",
+              "name": "integer"
+            },
+            "index": 1
+          }
+        ],
+        [
+          {
+            "nodeId": "node2",
+            "type": {
+              "location": "1:16-1:23",
+              "name": "integer"
+            },
+            "index": 0
+          },
+          {
+            "nodeId": "node1",
+            "type": {
+              "location": "1:16-1:23",
+              "name": "integer"
+            },
+            "index": 0
+          }
+        ],
+        [
+          {
+            "nodeId": "node1",
+            "type": {
+              "location": "1:16-1:23",
+              "name": "integer"
+            },
+            "index": 0
+          },
+          {
+            "nodeId": "node5",
+            "type": {
+              "location": "1:16-1:23",
+              "name": "integer"
+            },
+            "index": 0
+          }
+        ],
+        [
+          {
+            "nodeId": "node1",
+            "type": {
+              "location": "1:27-1:34",
+              "name": "integer"
+            },
+            "index": 1
+          },
+          {
+            "nodeId": "node5",
+            "type": {
+              "location": "1:27-1:34",
+              "name": "integer"
+            },
+            "index": 1
+          }
+        ],
+        [
+          {
+            "nodeId": "node5",
+            "type": {
+              "location": "1:16-1:23",
+              "name": "integer"
+            },
+            "index": 0
+          },
+          {
+            "nodeId": "node4",
+            "type": {
+              "location": "1:16-1:23",
+              "name": "integer"
+            },
+            "index": 0
+          }
+        ],
+        [
+          {
+            "nodeId": "node1",
+            "type": {
+              "location": "1:38-1:45",
+              "name": "integer"
+            },
+            "index": 2
+          },
+          {
+            "nodeId": "node4",
+            "type": {
+              "location": "1:38-1:45",
+              "name": "integer"
+            },
+            "index": 1
+          }
+        ],
+        [
+          {
+            "nodeId": "node4",
+            "type": {
+              "location": "1:16-1:23",
+              "name": "integer"
+            },
+            "index": 0
+          },
+          {
+            "nodeId": "node1",
+            "type": {
+              "location": "1:16-1:23",
+              "name": "integer"
+            },
+            "index": 1
+          }
+        ]
+      ],
+      "nodes": [
+        {
+          "name": "Binary",
+          "location": "2:4-2:9",
+          "outPorts": [
+            {
+              "nodeId": "node3",
+              "type": {
+                "location": "1:16-1:23",
+                "name": "integer"
+              },
+              "index": 0
+            }
+          ],
+          "inPorts": [
+            {
+              "nodeId": "node3",
+              "type": {
+                "location": "1:16-1:23",
+                "name": "integer"
+              },
+              "index": 0
+            },
+            {
+              "nodeId": "node3",
+              "type": {
+                "location": "1:27-1:34",
+                "name": "integer"
+              },
+              "index": 1
+            }
+          ],
+          "id": "node3",
+          "operator": "+"
+        },
+        {
+          "name": "Binary",
+          "location": "2:4-2:9",
+          "outPorts": [
+            {
+              "nodeId": "node2",
+              "type": {
+                "location": "1:16-1:23",
+                "name": "integer"
+              },
+              "index": 0
+            }
+          ],
+          "inPorts": [
+            {
+              "nodeId": "node2",
+              "type": {
+                "location": "1:16-1:23",
+                "name": "integer"
+              },
+              "index": 0
+            },
+            {
+              "nodeId": "node2",
+              "type": {
+                "location": "1:38-1:45",
+                "name": "integer"
+              },
+              "index": 1
+            }
+          ],
+          "id": "node2",
+          "operator": "+"
+        },
+        {
+          "name": "Binary",
+          "location": "2:11-2:16",
+          "outPorts": [
+            {
+              "nodeId": "node5",
+              "type": {
+                "location": "1:16-1:23",
+                "name": "integer"
+              },
+              "index": 0
+            }
+          ],
+          "inPorts": [
+            {
+              "nodeId": "node5",
+              "type": {
+                "location": "1:16-1:23",
+                "name": "integer"
+              },
+              "index": 0
+            },
+            {
+              "nodeId": "node5",
+              "type": {
+                "location": "1:27-1:34",
+                "name": "integer"
+              },
+              "index": 1
+            }
+          ],
+          "id": "node5",
+          "operator": "-"
+        },
+        {
+          "name": "Binary",
+          "location": "2:11-2:16",
+          "outPorts": [
+            {
+              "nodeId": "node4",
+              "type": {
+                "location": "1:16-1:23",
+                "name": "integer"
+              },
+              "index": 0
+            }
+          ],
+          "inPorts": [
+            {
+              "nodeId": "node4",
+              "type": {
+                "location": "1:16-1:23",
+                "name": "integer"
+              },
+              "index": 0
+            },
+            {
+              "nodeId": "node4",
+              "type": {
+                "location": "1:38-1:45",
+                "name": "integer"
+              },
+              "index": 1
+            }
+          ],
+          "id": "node4",
+          "operator": "-"
+        }
+      ],
+      "functionName": "foo"
+    }
+  ],
+  "declarations": {}
+}

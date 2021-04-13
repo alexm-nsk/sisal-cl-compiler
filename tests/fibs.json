@@ -1,0 +1,811 @@
+{
+    "declarations": {},
+    "functions": [
+        {
+            "edges": [
+                [
+                    {
+                        "index": 0,
+                        "nodeId": "node2",
+                        "type": {
+                            "location": "2:19-2:26",
+                            "name": "integer"
+                        }
+                    },
+                    {
+                        "index": 0,
+                        "nodeId": "node1",
+                        "type": {
+                            "location": "2:19-2:26",
+                            "name": "integer"
+                        }
+                    }
+                ]
+            ],
+            "functionName": "Fib",
+            "id": "node1",
+            "inPorts": [
+                {
+                    "index": 0,
+                    "nodeId": "node1",
+                    "type": {
+                        "location": "2:19-2:26",
+                        "name": "integer"
+                    }
+                }
+            ],
+            "location": "2:1-8:13",
+            "name": "Lambda",
+            "nodes": [
+                {
+                    "branches": [
+                        {
+                            "edges": [
+                                [
+                                    {
+                                        "index": 0,
+                                        "nodeId": "node3",
+                                        "type": {
+                                            "location": "2:19-2:26",
+                                            "name": "integer"
+                                        }
+                                    },
+                                    {
+                                        "index": 0,
+                                        "nodeId": "node3",
+                                        "type": {
+                                            "location": "2:19-2:26",
+                                            "name": "integer"
+                                        }
+                                    }
+                                ]
+                            ],
+                            "id": "node3",
+                            "inPorts": [
+                                {
+                                    "index": 0,
+                                    "nodeId": "node3",
+                                    "type": {
+                                        "location": "2:19-2:26",
+                                        "name": "integer"
+                                    }
+                                }
+                            ],
+                            "location": "not applicable",
+                            "name": "Then",
+                            "nodes": [],
+                            "outPorts": [
+                                {
+                                    "index": 0,
+                                    "nodeId": "node3",
+                                    "type": {
+                                        "location": "2:19-2:26",
+                                        "name": "integer"
+                                    }
+                                }
+                            ],
+                            "params": [
+                                [
+                                    "M",
+                                    {
+                                        "index": 0,
+                                        "nodeId": "node3",
+                                        "type": {
+                                            "location": "2:19-2:26",
+                                            "name": "integer"
+                                        }
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "edges": [
+                                [
+                                    {
+                                        "index": 0,
+                                        "nodeId": "node7",
+                                        "type": {
+                                            "location": "2:19-2:26",
+                                            "name": "integer"
+                                        }
+                                    },
+                                    {
+                                        "index": 0,
+                                        "nodeId": "node10",
+                                        "type": {
+                                            "location": "2:19-2:26",
+                                            "name": "integer"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "index": 0,
+                                        "nodeId": "node11",
+                                        "type": {
+                                            "location": "not applicable",
+                                            "name": "integer"
+                                        }
+                                    },
+                                    {
+                                        "index": 1,
+                                        "nodeId": "node10",
+                                        "type": {
+                                            "location": "not applicable",
+                                            "name": "integer"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "index": 0,
+                                        "nodeId": "node10",
+                                        "type": {
+                                            "location": "2:19-2:26",
+                                            "name": "integer"
+                                        }
+                                    },
+                                    {
+                                        "index": 0,
+                                        "nodeId": "node9",
+                                        "type": {
+                                            "location": "2:19-2:26",
+                                            "name": "integer"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "index": 0,
+                                        "nodeId": "node9",
+                                        "type": {
+                                            "location": "2:35-2:42",
+                                            "name": "integer"
+                                        }
+                                    },
+                                    {
+                                        "index": 0,
+                                        "nodeId": "node8",
+                                        "type": {
+                                            "location": "2:35-2:42",
+                                            "name": "integer"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "index": 0,
+                                        "nodeId": "node7",
+                                        "type": {
+                                            "location": "2:19-2:26",
+                                            "name": "integer"
+                                        }
+                                    },
+                                    {
+                                        "index": 0,
+                                        "nodeId": "node13",
+                                        "type": {
+                                            "location": "2:19-2:26",
+                                            "name": "integer"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "index": 0,
+                                        "nodeId": "node14",
+                                        "type": {
+                                            "location": "not applicable",
+                                            "name": "integer"
+                                        }
+                                    },
+                                    {
+                                        "index": 1,
+                                        "nodeId": "node13",
+                                        "type": {
+                                            "location": "not applicable",
+                                            "name": "integer"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "index": 0,
+                                        "nodeId": "node13",
+                                        "type": {
+                                            "location": "2:19-2:26",
+                                            "name": "integer"
+                                        }
+                                    },
+                                    {
+                                        "index": 0,
+                                        "nodeId": "node12",
+                                        "type": {
+                                            "location": "2:19-2:26",
+                                            "name": "integer"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "index": 0,
+                                        "nodeId": "node12",
+                                        "type": {
+                                            "location": "2:35-2:42",
+                                            "name": "integer"
+                                        }
+                                    },
+                                    {
+                                        "index": 1,
+                                        "nodeId": "node8",
+                                        "type": {
+                                            "location": "2:35-2:42",
+                                            "name": "integer"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "index": 0,
+                                        "nodeId": "node8",
+                                        "type": {
+                                            "location": "2:35-2:42",
+                                            "name": "integer"
+                                        }
+                                    },
+                                    {
+                                        "index": 0,
+                                        "nodeId": "node7",
+                                        "type": {
+                                            "location": "2:35-2:42",
+                                            "name": "integer"
+                                        }
+                                    }
+                                ]
+                            ],
+                            "id": "node7",
+                            "inPorts": [
+                                {
+                                    "index": 0,
+                                    "nodeId": "node7",
+                                    "type": {
+                                        "location": "2:19-2:26",
+                                        "name": "integer"
+                                    }
+                                }
+                            ],
+                            "location": "not applicable",
+                            "name": "Else",
+                            "nodes": [
+                                {
+                                    "id": "node11",
+                                    "inPorts": [],
+                                    "location": "6:17-6:18",
+                                    "name": "Literal",
+                                    "outPorts": [
+                                        {
+                                            "index": 0,
+                                            "nodeId": "node11",
+                                            "type": {
+                                                "location": "not applicable",
+                                                "name": "integer"
+                                            }
+                                        }
+                                    ],
+                                    "value": "1"
+                                },
+                                {
+                                    "id": "node10",
+                                    "inPorts": [
+                                        {
+                                            "index": 0,
+                                            "nodeId": "node10",
+                                            "type": {
+                                                "location": "2:19-2:26",
+                                                "name": "integer"
+                                            }
+                                        },
+                                        {
+                                            "index": 1,
+                                            "nodeId": "node10",
+                                            "type": {
+                                                "location": "not applicable",
+                                                "name": "integer"
+                                            }
+                                        }
+                                    ],
+                                    "location": "6:13-6:18",
+                                    "name": "Binary",
+                                    "operator": "-",
+                                    "outPorts": [
+                                        {
+                                            "index": 0,
+                                            "nodeId": "node10",
+                                            "type": {
+                                                "location": "2:19-2:26",
+                                                "name": "integer"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "callee": "Fib",
+                                    "id": "node9",
+                                    "inPorts": [
+                                        {
+                                            "index": 0,
+                                            "nodeId": "node9",
+                                            "type": {
+                                                "location": "2:19-2:26",
+                                                "name": "integer"
+                                            }
+                                        }
+                                    ],
+                                    "location": "6:12-6:19",
+                                    "name": "FunctionCall",
+                                    "outPorts": [
+                                        {
+                                            "index": 0,
+                                            "nodeId": "node9",
+                                            "type": {
+                                                "location": "2:35-2:42",
+                                                "name": "integer"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "node14",
+                                    "inPorts": [],
+                                    "location": "6:30-6:31",
+                                    "name": "Literal",
+                                    "outPorts": [
+                                        {
+                                            "index": 0,
+                                            "nodeId": "node14",
+                                            "type": {
+                                                "location": "not applicable",
+                                                "name": "integer"
+                                            }
+                                        }
+                                    ],
+                                    "value": "2"
+                                },
+                                {
+                                    "id": "node13",
+                                    "inPorts": [
+                                        {
+                                            "index": 0,
+                                            "nodeId": "node13",
+                                            "type": {
+                                                "location": "2:19-2:26",
+                                                "name": "integer"
+                                            }
+                                        },
+                                        {
+                                            "index": 1,
+                                            "nodeId": "node13",
+                                            "type": {
+                                                "location": "not applicable",
+                                                "name": "integer"
+                                            }
+                                        }
+                                    ],
+                                    "location": "6:26-6:31",
+                                    "name": "Binary",
+                                    "operator": "-",
+                                    "outPorts": [
+                                        {
+                                            "index": 0,
+                                            "nodeId": "node13",
+                                            "type": {
+                                                "location": "2:19-2:26",
+                                                "name": "integer"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "callee": "Fib",
+                                    "id": "node12",
+                                    "inPorts": [
+                                        {
+                                            "index": 0,
+                                            "nodeId": "node12",
+                                            "type": {
+                                                "location": "2:19-2:26",
+                                                "name": "integer"
+                                            }
+                                        }
+                                    ],
+                                    "location": "6:25-6:32",
+                                    "name": "FunctionCall",
+                                    "outPorts": [
+                                        {
+                                            "index": 0,
+                                            "nodeId": "node12",
+                                            "type": {
+                                                "location": "2:35-2:42",
+                                                "name": "integer"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "node8",
+                                    "inPorts": [
+                                        {
+                                            "index": 0,
+                                            "nodeId": "node8",
+                                            "type": {
+                                                "location": "2:35-2:42",
+                                                "name": "integer"
+                                            }
+                                        },
+                                        {
+                                            "index": 1,
+                                            "nodeId": "node8",
+                                            "type": {
+                                                "location": "2:35-2:42",
+                                                "name": "integer"
+                                            }
+                                        }
+                                    ],
+                                    "location": "6:9-6:32",
+                                    "name": "Binary",
+                                    "operator": "+",
+                                    "outPorts": [
+                                        {
+                                            "index": 0,
+                                            "nodeId": "node8",
+                                            "type": {
+                                                "location": "2:35-2:42",
+                                                "name": "integer"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "outPorts": [
+                                {
+                                    "index": 0,
+                                    "nodeId": "node7",
+                                    "type": {
+                                        "location": "2:35-2:42",
+                                        "name": "integer"
+                                    }
+                                }
+                            ],
+                            "params": [
+                                [
+                                    "M",
+                                    {
+                                        "index": 0,
+                                        "nodeId": "node7",
+                                        "type": {
+                                            "location": "2:19-2:26",
+                                            "name": "integer"
+                                        }
+                                    }
+                                ]
+                            ]
+                        }
+                    ],
+                    "condition": {
+                        "edges": [
+                            [
+                                {
+                                    "index": 0,
+                                    "nodeId": "node4",
+                                    "type": {
+                                        "location": "2:19-2:26",
+                                        "name": "integer"
+                                    }
+                                },
+                                {
+                                    "index": 0,
+                                    "nodeId": "node5",
+                                    "type": {
+                                        "location": "2:19-2:26",
+                                        "name": "integer"
+                                    }
+                                }
+                            ],
+                            [
+                                {
+                                    "index": 0,
+                                    "nodeId": "node6",
+                                    "type": {
+                                        "location": "not applicable",
+                                        "name": "integer"
+                                    }
+                                },
+                                {
+                                    "index": 1,
+                                    "nodeId": "node5",
+                                    "type": {
+                                        "location": "not applicable",
+                                        "name": "integer"
+                                    }
+                                }
+                            ],
+                            [
+                                {
+                                    "index": 0,
+                                    "nodeId": "node5",
+                                    "type": {
+                                        "location": "not applicable",
+                                        "name": "boolean"
+                                    }
+                                },
+                                {
+                                    "index": 0,
+                                    "nodeId": "node4",
+                                    "type": {
+                                        "location": "not applicable",
+                                        "name": "boolean"
+                                    }
+                                }
+                            ]
+                        ],
+                        "id": "node4",
+                        "inPorts": [
+                            {
+                                "index": 0,
+                                "nodeId": "node4",
+                                "type": {
+                                    "location": "2:19-2:26",
+                                    "name": "integer"
+                                }
+                            }
+                        ],
+                        "location": "not applicable",
+                        "name": "Condition",
+                        "nodes": [
+                            {
+                                "id": "node6",
+                                "inPorts": [],
+                                "location": "3:12-3:13",
+                                "name": "Literal",
+                                "outPorts": [
+                                    {
+                                        "index": 0,
+                                        "nodeId": "node6",
+                                        "type": {
+                                            "location": "not applicable",
+                                            "name": "integer"
+                                        }
+                                    }
+                                ],
+                                "value": "2"
+                            },
+                            {
+                                "id": "node5",
+                                "inPorts": [
+                                    {
+                                        "index": 0,
+                                        "nodeId": "node5",
+                                        "type": {
+                                            "location": "2:19-2:26",
+                                            "name": "integer"
+                                        }
+                                    },
+                                    {
+                                        "index": 1,
+                                        "nodeId": "node5",
+                                        "type": {
+                                            "location": "not applicable",
+                                            "name": "integer"
+                                        }
+                                    }
+                                ],
+                                "location": "3:8-3:13",
+                                "name": "Binary",
+                                "operator": "<",
+                                "outPorts": [
+                                    {
+                                        "index": 0,
+                                        "nodeId": "node5",
+                                        "type": {
+                                            "location": "not applicable",
+                                            "name": "boolean"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "outPorts": [
+                            {
+                                "index": 0,
+                                "nodeId": "node4",
+                                "type": {
+                                    "location": "not applicable",
+                                    "name": "boolean"
+                                }
+                            }
+                        ],
+                        "params": [
+                            [
+                                "M",
+                                {
+                                    "index": 0,
+                                    "nodeId": "node4",
+                                    "type": {
+                                        "location": "2:19-2:26",
+                                        "name": "integer"
+                                    }
+                                }
+                            ]
+                        ]
+                    },
+                    "edges": [],
+                    "id": "node2",
+                    "inPorts": [
+                        {
+                            "index": 0,
+                            "nodeId": "node2",
+                            "type": {
+                                "location": "2:19-2:26",
+                                "name": "integer"
+                            }
+                        }
+                    ],
+                    "location": "3:5-8:1",
+                    "name": "If",
+                    "nodes": [],
+                    "outPorts": [
+                        {
+                            "index": 0,
+                            "nodeId": "node2",
+                            "type": {
+                                "location": "2:19-2:26",
+                                "name": "integer"
+                            }
+                        }
+                    ],
+                    "params": [
+                        [
+                            "M",
+                            {
+                                "index": 0,
+                                "nodeId": "node2",
+                                "type": {
+                                    "location": "2:19-2:26",
+                                    "name": "integer"
+                                }
+                            }
+                        ]
+                    ]
+                }
+            ],
+            "outPorts": [
+                {
+                    "index": 0,
+                    "nodeId": "node1",
+                    "type": {
+                        "location": "2:19-2:26",
+                        "name": "integer"
+                    }
+                }
+            ],
+            "params": [
+                [
+                    "M",
+                    {
+                        "index": 0,
+                        "nodeId": "node1",
+                        "type": {
+                            "location": "2:19-2:26",
+                            "name": "integer"
+                        }
+                    }
+                ]
+            ]
+        },
+        {
+            "edges": [
+                [
+                    {
+                        "index": 0,
+                        "nodeId": "node15",
+                        "type": {
+                            "location": "10:20-10:27",
+                            "name": "integer"
+                        }
+                    },
+                    {
+                        "index": 0,
+                        "nodeId": "node16",
+                        "type": {
+                            "location": "10:20-10:27",
+                            "name": "integer"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "index": 0,
+                        "nodeId": "node16",
+                        "type": {
+                            "location": "2:35-2:42",
+                            "name": "integer"
+                        }
+                    },
+                    {
+                        "index": 0,
+                        "nodeId": "node15",
+                        "type": {
+                            "location": "2:35-2:42",
+                            "name": "integer"
+                        }
+                    }
+                ]
+            ],
+            "functionName": "main",
+            "id": "node15",
+            "inPorts": [
+                {
+                    "index": 0,
+                    "nodeId": "node15",
+                    "type": {
+                        "location": "10:20-10:27",
+                        "name": "integer"
+                    }
+                }
+            ],
+            "location": "10:1-12:13",
+            "name": "Lambda",
+            "nodes": [
+                {
+                    "callee": "Fib",
+                    "id": "node16",
+                    "inPorts": [
+                        {
+                            "index": 0,
+                            "nodeId": "node16",
+                            "type": {
+                                "location": "10:20-10:27",
+                                "name": "integer"
+                            }
+                        }
+                    ],
+                    "location": "11:8-11:11",
+                    "name": "FunctionCall",
+                    "outPorts": [
+                        {
+                            "index": 0,
+                            "nodeId": "node16",
+                            "type": {
+                                "location": "2:35-2:42",
+                                "name": "integer"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "outPorts": [
+                {
+                    "index": 0,
+                    "nodeId": "node15",
+                    "type": {
+                        "location": "2:35-2:42",
+                        "name": "integer"
+                    }
+                }
+            ],
+            "params": [
+                [
+                    "M",
+                    {
+                        "index": 0,
+                        "nodeId": "node15",
+                        "type": {
+                            "location": "10:20-10:27",
+                            "name": "integer"
+                        }
+                    }
+                ]
+            ]
+        }
+    ]
+}

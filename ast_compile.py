@@ -336,14 +336,16 @@ class Edge:
 #----------------------------------------------------------------------------------------
 
 def parse_params(nodes):
-
-    io = [{
-                    "name"    : f[0],
-                    "node_id" : f[1]["nodeId"],
-                    "type"    : f[1]["type"]["name"],
-                    "index"   : f[1]["index"]
-                } for f in nodes]
-    return io
+    if nodes:
+        io = [{
+                        "name"    : f[0],
+                        "node_id" : f[1]["nodeId"],
+                        "type"    : f[1]["type"]["name"],
+                        "index"   : f[1]["index"]
+                    } for f in nodes]
+        return io
+    else:
+        return []
 
 #------------------------------------------
 
